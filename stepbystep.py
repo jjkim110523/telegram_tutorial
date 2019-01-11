@@ -4,7 +4,7 @@ from telegram import InlineQueryResultArticle, InputTextMessageContent
 import logging
 
 
-updater=Updater(token="604582951:AAGCfEB-GsjenkFBE6eR04sK_Pzmd2kWjCc")
+updater=Updater(token="mytoken")
 
 #updater의 dispatcher로 빠르게 접근하는 방법에는 지역변수 선언이 있다.
 dispatcher=updater.dispatcher
